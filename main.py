@@ -18,7 +18,7 @@ def main():
         return
 
     try:
-        res: Result = calc.solve()
+        res: Result = calc.calculate()
 
         output = [
             f"Норма матрицы преобразования: {res.norm:.4f}",

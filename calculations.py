@@ -34,7 +34,7 @@ class Calculations:
                 strict_dominance = True
         return strict_dominance
 
-    def solve(self) -> Result:
+    def calculate(self) -> Result:
         C = []
         d = []
         for i in range(self.n):
